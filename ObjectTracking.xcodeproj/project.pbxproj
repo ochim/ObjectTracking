@@ -12,6 +12,8 @@
 		568EC038221195E10082C4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EC036221195E10082C4DF /* Main.storyboard */; };
 		568EC03A221195E30082C4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568EC039221195E30082C4DF /* Assets.xcassets */; };
 		568EC03D221195E30082C4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568EC03B221195E30082C4DF /* LaunchScreen.storyboard */; };
+		568EC0452211BDF20082C4DF /* TrackObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EC0442211BDF20082C4DF /* TrackObjectViewController.swift */; };
+		568EC0472211BE000082C4DF /* DetectBarcodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EC0462211BE000082C4DF /* DetectBarcodesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		568EC039221195E30082C4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568EC03C221195E30082C4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568EC03E221195E30082C4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568EC0442211BDF20082C4DF /* TrackObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackObjectViewController.swift; sourceTree = "<group>"; };
+		568EC0462211BE000082C4DF /* DetectBarcodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectBarcodesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				568EC032221195E10082C4DF /* AppDelegate.swift */,
 				568EC034221195E10082C4DF /* ViewController.swift */,
+				568EC0442211BDF20082C4DF /* TrackObjectViewController.swift */,
+				568EC0462211BE000082C4DF /* DetectBarcodesViewController.swift */,
 				568EC036221195E10082C4DF /* Main.storyboard */,
 				568EC039221195E30082C4DF /* Assets.xcassets */,
 				568EC03B221195E30082C4DF /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				568EC0472211BE000082C4DF /* DetectBarcodesViewController.swift in Sources */,
 				568EC035221195E10082C4DF /* ViewController.swift in Sources */,
+				568EC0452211BDF20082C4DF /* TrackObjectViewController.swift in Sources */,
 				568EC033221195E10082C4DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
